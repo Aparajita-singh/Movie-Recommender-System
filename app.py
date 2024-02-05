@@ -29,7 +29,7 @@ similarity = pickle.load(open('similarity.pkl','rb'))
 
 st.set_page_config(page_title="Movie Recommender System", layout="wide")
 
-st.sidebar.success("Select a page above.")
+st.sidebar.success("Navigate between pages.")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -37,7 +37,7 @@ with st.container():
     st.subheader("Unlock Personalized Entertainment")
     st.write(
         "Discover your next favorite movie with our Movie Recommender System. "
-        "Using advanced collaborative filtering algorithms, "
+        "Using collaborative filtering algorithms, "
         "it tailors recommendations based on your unique preferences, "
         "ensuring each movie suggestion is a perfect match. "
         "Elevate your entertainment experience and dive into a curated world of films selected just for you.")
